@@ -10,6 +10,7 @@ import (
 
 	flags "github.com/jessevdk/go-flags"
 	graceful "github.com/tylerb/graceful"
+	swag "github.com/go-openapi/swag"
 
   {{ range .DefaultImports }}{{ printf "%q" . }}
   {{ end }}
